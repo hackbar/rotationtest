@@ -23,7 +23,6 @@ public class FirstActivity extends AppCompatActivity implements View.OnClickList
 	@Override
 	public void onClick(View view)
 	{
-		//SecondActivity.launch(this, mText);
 		Intent intent = new Intent(this, SecondActivity.class);
 
 		ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(
